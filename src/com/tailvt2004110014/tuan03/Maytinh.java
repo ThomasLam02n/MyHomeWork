@@ -1,4 +1,4 @@
-package baitapthem;
+package com.tailvt2004110014.tuan03;
 import java.util.zip.DataFormatException;
 public class Maytinh {
     String nhasanxuat;
@@ -18,4 +18,6 @@ public class Maytinh {
         System.out.println("Giá: "+gia);
         System.out.println("Năm Bảo Hành: "+nambaohanh);
     }
+
+    
 }
