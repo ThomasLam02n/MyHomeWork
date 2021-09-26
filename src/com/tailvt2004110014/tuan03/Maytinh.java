@@ -19,5 +19,7 @@ public class Maytinh {
         System.out.println("Năm Bảo Hành: "+nambaohanh);
     }
 
-    
+    Maytinh(){
+        
+    }
 }
