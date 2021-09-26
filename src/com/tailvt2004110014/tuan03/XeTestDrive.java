@@ -13,5 +13,8 @@ public class XeTestDrive {
         xe.dungtichxang = "100 lít";
 
         xe.inThongTin();
+
+        xe = new Xe("Nguyễn Văn B", "Honda", "Tay ga");
+        System.out.println("\nTên chủ xe: "+xe.tenchuxe+"\nHãng sản xuất: "+xe.hangsanxuat+"\nDòng xe: "+xe.dong);
     }
 }

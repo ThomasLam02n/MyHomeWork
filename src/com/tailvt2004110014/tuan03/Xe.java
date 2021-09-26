@@ -15,4 +15,14 @@ public class Xe {
         System.out.println("Giấy Phép: "+giayphep);
         System.out.println("Dung Tích Xăng "+dungtichxang);
     }
+
+    Xe(){
+
+    }
+
+    Xe(String name, String hsx, String kind){
+        tenchuxe = name;
+        hangsanxuat = hsx;
+        dong = kind;
+    }
 }

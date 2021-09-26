@@ -15,4 +15,13 @@ public class Nhanvien {
         System.out.println("Bộ Phận Làm Việc: " +bophanlamviec);
         System.out.println("Ngày Sinh: " +ngaysinh);
     }
+
+    Nhanvien(){
+
+    }
+
+    Nhanvien(String name, String id){
+        tenNV = name;
+        diachi = id;
+    }
 }

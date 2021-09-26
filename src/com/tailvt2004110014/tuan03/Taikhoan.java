@@ -11,4 +11,13 @@ public class Taikhoan {
         System.out.println("Số Tài khoản: "+sotaikhoan);
         System.out.println("Số Dư Trong Tài Khoản: "+sodutrongtaikhoan);
     }
+
+    Taikhoan(){
+
+    }
+    Taikhoan(String name, String id, String balance){
+        tenchutaikhoan = name;
+        sotaikhoan = id;
+        sodutrongtaikhoan = balance;
+    }
 }

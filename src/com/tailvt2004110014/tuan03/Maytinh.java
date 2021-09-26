@@ -22,4 +22,11 @@ public class Maytinh {
     Maytinh(){
         
     }
+
+    Maytinh(String nsx, String ysx, String hdh, String nbh){
+        nhasanxuat = nsx;
+        namsanxuat = ysx;
+        hedieuhanh = hdh;
+        nambaohanh = nbh;
+    }
 }

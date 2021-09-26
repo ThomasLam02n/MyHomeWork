@@ -12,5 +12,9 @@ public class SachTestDrive {
         sach.soluong = 500;
 
         sach.inThongtin();
+
+        sach = new Sach(19000, 500, "Detective");
+        System.out.println("\nGiá bán: "+sach.gia+("\nSố lượng in: "+sach.soluong+"\nLoại sách: "+sach.loai));
+
     }
 }

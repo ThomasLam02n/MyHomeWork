@@ -17,6 +17,16 @@ public class Sach {
         System.out.println("Số lượng xuất bản: " +soluong);
         System.out.println("Loại sách: " +loai);
     }
+
+    Sach(){
+
+    }
+
+    Sach(int cost, int howmany, String wkind){
+       gia = cost;
+       soluong = howmany;
+       loai = wkind;
+    }
 }
 
 
