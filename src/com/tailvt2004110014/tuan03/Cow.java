@@ -5,11 +5,11 @@ public class Cow {
     String breed;
     String color;
 
-    Cow(){
+    Cow(){  //HÀM TẠO MẶC ĐỊNH
 
     }
 
-    Cow(double w, String br, String cl){
+    Cow(double w, String br, String cl){ //HÀM TẠO DO CHÍNH MÌNH TẠO
         weight = w;
         breed = br;
         color = cl;
