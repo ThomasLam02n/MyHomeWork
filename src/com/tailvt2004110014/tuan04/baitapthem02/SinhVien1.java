@@ -1,12 +1,12 @@
 package com.tailvt2004110014.tuan04.baitapthem02;
 import java.util.zip.DataFormatException;
-public class SinhVien {
+public class SinhVien1 {
     String mssv;
     String name;
     String tuoi;
     String quequan;
 
-    SinhVien(String m, String n, String t, String q){
+    SinhVien1(String m, String n, String t, String q){
         mssv = m;
         name = n;
         tuoi = t;

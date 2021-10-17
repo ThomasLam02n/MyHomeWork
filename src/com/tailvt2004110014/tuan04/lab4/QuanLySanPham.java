@@ -1,6 +1,8 @@
 package com.tailvt2004110014.tuan04.lab4;
 
 import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
 import java.util.Scanner;
 
 import javax.print.attribute.standard.Media;
@@ -31,6 +33,7 @@ public class QuanLySanPham {
             case 2:
             break;
             case 3:
+                xoa();
             break;
             case 4:
             break;
@@ -42,10 +45,10 @@ public class QuanLySanPham {
     public static void nhap(){
         while(true){
             System.out.print("Nhập tên sản phẩm: ");
-            String x = bienNhap.nextLine();
+            String x = bienNhap.next();
             list.add(x);
             System.out.print("Nhập thêm (y/n)?: ");
-            if(bienNhap.nextLine().equals("n"))
+            if(bienNhap.next().equals("n"))
             break;
         }
     }
@@ -57,6 +60,18 @@ public class QuanLySanPham {
     }
 
     public static void sapxepgiamdan(){
-        
+        Comparator<list>;
     }
+
+    public static void xoa(){
+        System.out.println("Nhập tên cần xoá: ");
+        String name = bienNhap.nextLine();
+        for(String a: list){
+            if(a.equals(name)){
+                list.remove(a);
+                System.out.println("Đã xoá");
+            }
+            break;
+    }
+}
 }
