@@ -54,7 +54,7 @@ public class NhapXuatSapXepXoaDSSV {
     public static Scanner bienNhap = new Scanner(System.in);
 
     // Tạo Hàm nhập tên SV
-    static void nhap() {
+    public static void nhap() {
         while (true) {
             System.out.print("Nhập họ và tên: ");
             String x = bienNhap.nextLine();
