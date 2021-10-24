@@ -1,11 +1,11 @@
-package com.tailvt2004110014.tuan05;
+package com.tailvt2004110014.tuan05.quanlysanpham;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Scanner;
 
-public class SanPhamTestDrive {
+public class QuanLySanPhamTestDrive {
    public static void main(String[] args) {
         sc.nextLine();
        do{

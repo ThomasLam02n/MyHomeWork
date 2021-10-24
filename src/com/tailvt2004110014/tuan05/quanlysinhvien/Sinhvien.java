@@ -1,4 +1,4 @@
-package com.tailvt2004110014.tuan05;
+package com.tailvt2004110014.tuan05.quanlysinhvien;
 
 import java.util.Scanner;
 

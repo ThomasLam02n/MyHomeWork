@@ -1,4 +1,4 @@
-package com.tailvt2004110014.tuan04.lab4;
+package com.tailvt2004110014.tuan05.quanlysanpham;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -60,7 +60,7 @@ public class QuanLySanPham {
     }
 
     public static void sapxepgiamdan(){
-        Comparator<list>;
+        
     }
 
     public static void xoa(){

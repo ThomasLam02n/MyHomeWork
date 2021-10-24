@@ -1,4 +1,4 @@
-package com.tailvt2004110014.tuan05;
+package com.tailvt2004110014.tuan05.quanlysinhvien;
 
 import java.security.AllPermission;
 import java.util.ArrayList;
@@ -60,6 +60,15 @@ public class QuanLySinhVien {
         for (Sinhvien sinhvien : dssinhvien) {
             if (bienNhap.nextLine().equals(sinhvien.hovatenSV)) {
                 sinhvien.inThongTin();
+            }
+        }
+    }
+
+    public static void xoathongtin(){
+        System.out.println("Tên cần xoá: ");
+        for (Sinhvien sinhvien : dssinhvien) {
+            if (bienNhap.nextLine().equals(sinhvien.hovatenSV)) {
+                dssinhvien.remove(sinhvien.hovatenSV);
             }
         }
     }

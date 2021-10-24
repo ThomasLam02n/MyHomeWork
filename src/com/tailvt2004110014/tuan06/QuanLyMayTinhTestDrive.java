@@ -1,20 +1,21 @@
-package com.tailvt2004110014.tuan05;
+package com.tailvt2004110014.tuan06;
 
 import java.util.Scanner;
 
-public class QuanLySinhVienTestDrive {
-    public static void main(String[] args) {
 
-        QuanLySinhVien ql = new QuanLySinhVien();
+public class QuanLyMayTinhTestDrive {
+    public static Scanner sc = new Scanner(System.in);
+    public static void main(String[] args) {
+         QuanLyMayTinh qlMT = new QuanLyMayTinh();
         Scanner bienNhap = new Scanner(System.in);
-        
+
         do {
             System.out.println("---------------MENU----------------");
-            System.out.println("1)  Nhập Danh Sách Sinh Viên       |");
-            System.out.println("2)  Xuất Danh Sách Sinh Viên       |");
+            System.out.println("1)  Nhập Danh Sách MT              |");
+            System.out.println("2)  Xuất Danh Sách MT              |");
             System.out.println("3)  Sắp Xếp                        |");
-            System.out.println("4)  Xuất Danh Sách SV Ngẫu Nhiên   |");
-            System.out.println("5)  Xoá                            |");
+            System.out.println("4)  Xuất Danh Sách MT Ngẫu Nhiên   |");
+            System.out.println("5)  Tìm theo tên                   |");
             System.out.println("6)  Kết Thúc.                      |");
             System.out.println("-----------------------------------");
 
@@ -23,19 +24,20 @@ public class QuanLySinhVienTestDrive {
 
             switch (key) {
             case 1:
-                ql.nhapthongtin();
+                qlMT.nhapthongtinMT();
                 break;
             case 2:
-                ql.xuatthongtin();
+                qlMT.xuatthongtinMT();
                 break;
             case 3:
-                ql.sapxepthongtin();
+                qlMT.sapxepthongtinMT();
+                qlMT.xuatthongtinMT();
                 break;
             case 4:
-                ql.xuatngaunhien();
+                qlMT.tronThongTin();
                 break;
             case 5:
-                ql.timTenSV();
+                qlMT.timtenMt();
                 break;
             case 6:
                 System.out.println("Kết Thúc!");
