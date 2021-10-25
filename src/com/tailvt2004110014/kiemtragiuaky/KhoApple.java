@@ -38,5 +38,4 @@ public class KhoApple {
             apple.inThongTinApple();
         }
     }
-
 }
