@@ -17,7 +17,7 @@ public class Nhanvien {
     }
 
     Nhanvien(){
-
+        
     }
 
     Nhanvien(String name, String id){
