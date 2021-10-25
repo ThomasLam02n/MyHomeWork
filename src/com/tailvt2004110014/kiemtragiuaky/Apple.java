@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Apple {
 
      String ma;
-     int khoiluong;
+     String khoiluong;
      String mauSac;
 
     static Scanner sc = new Scanner(System.in);
@@ -24,9 +24,8 @@ public class Apple {
         System.out.println("Mã id: ");
         ma = sc.nextLine();
         System.err.println("Khối Lượng: ");
-        khoiluong = sc.nextInt();
+        khoiluong = sc.nextLine();
         System.out.println("Màu sắc: ");
         mauSac = sc.nextLine();
-        sc.nextLine();
     }
 }
