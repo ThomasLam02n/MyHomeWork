@@ -5,5 +5,7 @@ public class Node {
     Book data;
     Node next;
 
-    Node(){}
+    Node(Book d){
+        data=d;
+        }
 }

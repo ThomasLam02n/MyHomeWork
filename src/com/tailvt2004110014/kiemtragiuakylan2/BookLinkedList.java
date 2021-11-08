@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class BookLinkedList {
     public BookLinkedList(){}
-    Book head;
-    Book tail;
-    Book current;
-    Book previous;
+    Node head;
+    Node tail;
+    Node current;
+    Node previous;
     Scanner bienNhap = new Scanner(System.in);
-    Book book = new Book();
+    Node book = new Node();
     
     Book dienThongTin(){
         System.out.println("Nhập mã: ");
@@ -25,12 +25,12 @@ public class BookLinkedList {
     void add(){
         Book book = dienThongTin();
         if(head==null){
-            head=book;
-            tail=book;
+            head=Node;
+            tail=Node;
         }
         else{
-            tail.next=book;
-            tail=book;
+            tail.next=Node;
+            tail=Node;
         }
     }
 
@@ -82,13 +82,13 @@ public class BookLinkedList {
     void addHead(){
         Book book = dienThongTin();
         book.next=head;
-        head=book;
+        head=Node;
     }
 
     void themDangTruoc(){
         timDangTruoc();
         Book book = dienThongTin();
-        previous.next=book;
+        previous.next=Node;
         previous.next.next=current;
     }
 
