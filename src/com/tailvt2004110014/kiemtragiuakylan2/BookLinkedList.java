@@ -11,26 +11,26 @@ public class BookLinkedList {
     Scanner bienNhap = new Scanner(System.in);
     Node book = new Node();
     
-    Book dienThongTin(){
+    Node dienThongTin(){
         System.out.println("Nhập mã: ");
         String ma = bienNhap.nextLine();
         System.out.println("Đơn giá: ");
         Double dongia = bienNhap.nextDouble();
         System.out.println("Khối lượng: ");
         int khoiluong = bienNhap.nextInt();
-        Book book = new Book();
+        Node book = new Node();
         return book;
     }
 
     void add(){
-        Book book = dienThongTin();
+        Node book = dienThongTin();
         if(head==null){
-            head=Node;
-            tail=Node;
+            head=book;
+            tail=book;
         }
         else{
-            tail.next=Node;
-            tail=Node;
+            tail.next=book;
+            tail=book;
         }
     }
 
@@ -80,15 +80,15 @@ public class BookLinkedList {
     }
 
     void addHead(){
-        Book book = dienThongTin();
+        Node book = dienThongTin();
         book.next=head;
-        head=Node;
+        head=book;
     }
 
     void themDangTruoc(){
         timDangTruoc();
-        Book book = dienThongTin();
-        previous.next=Node;
+        Node book = dienThongTin();
+        previous.next=book;
         previous.next.next=current;
     }
 
